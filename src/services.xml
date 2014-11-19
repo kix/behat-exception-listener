@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+
+        <service id="kix.exception_listener.step_wrapper" class="Kix\ExceptionListenerExtension\Tester\StepTester">
+            <argument/>
+            <argument type="service" id="cli.output"/>
+            <argument type="collection" />
+            <tag name="tester.step.wrapper" priority="-9999"/>
+        </service>
+
+    </services>
+</container>
