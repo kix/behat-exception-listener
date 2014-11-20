@@ -2,7 +2,7 @@
     "name":         "kix/behat-exception-listener",
     "description":  "Behat exception listener platform",
     "keywords":     ["BDD", "SpecBDD", "StoryBDD"],
-    "homepage":     "https://github.com/kix/BehatExceptionListener",
+    "homepage":     "https://github.com/kix/behat-exception-listener",
     "type":         "library",
     "license":      "MIT",
     "authors":      [
@@ -14,9 +14,6 @@
 
     "require": {
         "php": ">=5.4",
-        "rmiller/error-extension": "~0.1",
-        "rmiller/phpspec-extension": "~0.1",
-        "rmiller/exemplify-extension": "~0.2",
         "rmiller/phpspec-run-extension": "~0.1"
     },
 
